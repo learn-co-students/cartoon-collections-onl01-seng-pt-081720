@@ -1,7 +1,9 @@
 def roll_call_dwarves(names)# code an argument here
   # Your code here
+  counter = 1
   names.each do |name|
-    puts name
+    puts "#{counter}. *#{name}"
+    counter += 1
   end
 end
 
